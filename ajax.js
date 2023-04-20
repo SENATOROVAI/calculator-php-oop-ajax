@@ -1,9 +1,9 @@
-$(document).ready(function(){
+$(document).ready(function(){    /* $(document) - ищет элемент document , ready - событие */
 
 	$('#form').submit(function (event) {
 		event.preventDefault();					/* отменяет поведение по умолчанию */
 
-		let form = $(this);
+		let form = $(this); /* то же самое как в php */
 
 		// console.log(event);
 
